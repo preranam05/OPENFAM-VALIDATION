@@ -1,5 +1,6 @@
 # OPENFAM-VALIDATION
 The python code is uploaded as : code.py
+
 To run the code:
   python code.py --config_path path/to/file
  
