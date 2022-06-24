@@ -1,0 +1,55 @@
+provider: sockets
+delayed_free_threads: 0
+ATL_threads: 0
+ATL_queue_size: 1000
+ATL_data_size: 1024
+Memservers:
+  0:
+    memory_type: volatile
+    fam_path: /dev/shm/vol_path
+    rpc_interface: fam5:8793
+    libfabric_port: 7500
+    if_device: eth0
+  1:
+    memory_type: volatile
+    fam_path: /dev/shm/vol_path
+    rpc_interface: fam4:8793
+    libfabric_port: 7500
+    if_device: eth1
+  2:
+    memory_type: volatile
+    fam_path: /dev/shm/vol_path
+    rpc_interface: fam3:8793
+    libfabric_port: 7500
+    if_device: eth1
+  3:
+    memory_type: volatile
+    fam_path: /dev/shm/vol_path
+    rpc_interface: fam6:8793
+    libfabric_port: 7500
+    if_device: eth1
+  4:
+    memory_type: volatile
+    fam_path: /dev/shm/vol_path
+    rpc_interface: fam7:8793
+    libfabric_port: 7500
+    if_device: eth1
+  5:
+    memory_type: volatile
+    fam_path: /dev/shm/vol_path
+    rpc_interface: fam8:8793
+    libfabric_port: 7500
+    if_device: eth1
+  6:
+    memory_type: volatile
+    fam_path: /dev/shm/vol_path
+    rpc_interface: fam9:8793
+    libfabric_port: 7500
+    if_device: eth1
+  7:
+    memory_type: volatile
+    fam_path: /dev/shm/vol_path
+    rpc_interface: fam10:8793
+    libfabric_port: 7500
+    if_device: eth1
+fam_backup_path: /scratch/backup

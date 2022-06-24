@@ -1,0 +1,8 @@
+#Metadata Config file
+
+# Metadata manager: default is radixtree. Currently radixtree is the only supported KVS.
+metadata_manager: radixtree
+metadata_path: /dev/shm/fam_metadata_path
+enable_region_spanning: true
+region_span_size_per_memoryserver: 1073741824
+dataitem_interleave_size: 1048576

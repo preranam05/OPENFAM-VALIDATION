@@ -1,0 +1,9 @@
+memsrv_interface_type: str()
+metadata_interface_type: str()
+rpc_interface: str()
+memsrv_list: list(include('schema'), min=1, max=100000)
+metadata_list: list(include('value'), min=1, max=100000)
+---
+schema: str()
+---
+value: str()

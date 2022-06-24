@@ -1,0 +1,18 @@
+#FAM Client Interface Service Config file
+# Memory Server Interface used by OpenFAM. default is direct. Other option is rpc.
+# memsrv_interface_type value of rpc implies communication between memory server and client interface via rpc.
+# memsrv_interface_type value of direct implies communication happens via function calls.
+memsrv_interface_type: rpc
+metadata_interface_type: rpc
+rpc_interface: fam1:8787
+memsrv_list:
+- 0:fam5:8793
+- 1:fam4:8793
+- 2:fam3:8793
+- 3:fam6:8793
+- 4:fam7:8793
+- 5:fam8:8793
+- 6:fam9:8793
+- 7:fam10:8793
+metadata_list:
+- 0:fam2:8788

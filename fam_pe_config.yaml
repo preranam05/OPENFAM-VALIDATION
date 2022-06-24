@@ -1,0 +1,9 @@
+# PE config file
+
+# Fam thread model: default is single-threaded(single). Other option is multi-threaded(multiple)
+FamThreadModel: single
+provider: sockets
+openfam_model: memory_server
+runtime: PMIX
+client_interface_type: rpc
+fam_client_interface_service_address: fam1:8787

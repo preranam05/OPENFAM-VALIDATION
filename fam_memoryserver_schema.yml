@@ -1,0 +1,15 @@
+provider: str()
+delayed_free_threads: int()
+ATL_threads: int()
+ATL_queue_size: int()
+ATL_data_size: int()
+Memservers: map(include('schema'), key= int())
+fam_backup_path: str()
+---
+schema:
+    
+        memory_type: enum('volatile','persistent')
+        fam_path: str()
+        rpc_interface: str()
+        libfabric_port: enum(7500, 7501)
+        if_device: enum( 'eth0', 'eth1')

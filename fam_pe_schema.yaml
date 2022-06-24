@@ -1,0 +1,6 @@
+FamThreadModel: str()
+provider: str()
+openfam_model: str()
+runtime: str()
+client_interface_type: str()
+fam_client_interface_service_address: str()
